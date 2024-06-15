@@ -1,0 +1,86 @@
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    max-width: 700px;
+    width: 96%;
+    position: relative;
+    background: #f1f1f1;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+
+/*.header{
+  text-align: center;
+}*/
+.header{
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+  font-weight: 500;
+}
+
+/*body Centered*/
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:  0 20px;
+  background: rgb(130, 106, 251);
+
+
+}
+
+/* Full-width input fields */
+input[type=Username], input[type=FullName], input[type=radio],input[type=Email],input[type=password]{
+ width: 96%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=Username], input[type=FullName], input[type=radio],input[type=Email],input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+
+}
+
+
+/* Set a style for the submit button */
+.submit{
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .submit:hover {
+    opacity:1;
+  }
+  /* Add a blue text color to links */
+a {
+    color: dodgerblue;
+  }
+  /* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+select[text="Birthday"], select[text="Day"],select[text="Year"]{
+    width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #bfbfbf;
+}
+select[text="Birthday"], select[text="Day"],select[text="Year"]:focus{
+    background-color: #ddd;
+    outline: none;  
+}
